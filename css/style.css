@@ -1,0 +1,33 @@
+body{
+
+    background-color: wheat
+}
+
+
+.email{
+
+    background-color: beige;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.senha{
+
+    background-color: beige;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.imagem{
+
+    width: 45%;
+    float: left;
+    height: 950px;
+    border-color : 100px black  ;
+
+
+}
