@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.header{
+  color: #32b9cd; 
+  border-bottom: solid 3px #32b9cd;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  color: #e3b062;
+  list-style: none;
+  align-items: center;
+}
+
+.banner{
+  color: blue;
+  padding: 40px 0px;
+  height: 300px;
+  width: 50%;
+  background-image: url("./assets/1_volei_masculino-21373614.jpg");
+  background-size: cover;
+
+}
+
+.banner .container{
+  height: 400px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-left: 120%;
+}
+
+.banner p{
+  font-size: 36px;
+  width: 280px;
+}
+
+.banner .container span{
+  font-weight: 400;
+}
+
+.social{
+  background-color: #e5e5e5;
+}
+
+.box img{
+  width: 170px;
+}
+
+
+.social .container .boxes{
+  display: flex;
+}
+
+.box{
+  margin: 50px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social p{
+  text-align: center;
+}
+
+.footer{
+  background-color: #32b9cd;
+  height: 150px;
+  color: #fff;
+  display: flex;
+}
+
+.footer .container{
+  display: flex;
+  justify-content: center;
+}
+
+.header ul #aqui {
+  font-weight: 1000;
+  color: skyblue;
+  text-transform: uppercase;
+}
+
+a {
+  color: #e3b062;
+  text-decoration: none;
+}
